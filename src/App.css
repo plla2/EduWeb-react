@@ -36,3 +36,44 @@ body {
 button {
   border: none;
 }
+.row {
+  width: 50%;
+}
+button {
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #7286d3;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
+}
+
+button i {
+  margin-left: 20px;
+}
+
+button:hover {
+  box-shadow: none;
+}
+.primary-btn {
+  background-color: #7286d3;
+  color: #fff;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* color: #7286d3; */
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
