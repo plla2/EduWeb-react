@@ -1,38 +1,34 @@
 import React from "react";
+import Heading from "../../common/heading/Heading";
 import "./Hero.css";
-import Title from "../../common/title/Title";
 
 const Hero = () => {
   return (
-    <div>
-      <>
-        <section className="hero">
-          <div className="container">
-            <div className="row">
-              <Title
-                subtitle="WELCOME TO Plla2 EDU"
-                title="Best Online Education Expertise"
-              />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequuntur, ducimus quo fuga eligendi, laboriosam quasi
-                quisquam corporis expedita quaerat facilis animi alias. Aliquid
-                impedit cumque omnis nam vitae fugit corporis!
-              </p>
-              <div className="button">
-                <button className="primary-btn">
-                  GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-                </button>
-                <button className="btn">
-                  VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
-                </button>
-              </div>
+    <>
+      <section className="hero">
+        <div className="container">
+          <div className="row">
+            <Heading
+              subtitle="WELCOME TO Plla2 Edu"
+              title="Best Online Education Expertise"
+            />
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <div className="button">
+              <button className="primary-btn">
+                GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
+              </button>
+              <button>
+                VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
+              </button>
             </div>
           </div>
-        </section>
-        <div className="margin"></div>
-      </>
-    </div>
+        </div>
+      </section>
+      <div className="margin"></div>
+    </>
   );
 };
 

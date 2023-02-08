@@ -1,12 +1,22 @@
-import React from "react";
-import Hero from "./hero/Hero";
+import React from "react"
+import AboutCard from "../about/AboutCard"
+import Hblog from "./Hblog"
+import HAbout from "./HAbout"
+import Hero from "./hero/Hero"
+import Hprice from "./Hprice"
+import Testimonal from "./testimonal/Testimonal"
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
-    </div>
-  );
-};
+      <AboutCard />
+      <HAbout />
+      <Testimonal />
+      <Hblog />
+      <Hprice />
+    </>
+  )
+}
 
-export default Home;
+export default Home
